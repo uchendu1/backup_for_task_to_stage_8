@@ -77,8 +77,20 @@
             width: 130px;
             height: 40px;
         }
-        .PI{
+
+        .PI {
             padding-top: 55px;
+            padding-left: 40px;
+
+        }
+
+        .com-info {
+            padding-left: 40px;
+
+        }
+
+        .side-bar2 {
+            background: rgba(73, 190, 255, 0.05);
         }
     </style>
 </head>
@@ -223,39 +235,70 @@
     <img class="dashHeaderDesign2" src="/images/dashboard-header/dashboard-header-design-3.svg" alt="">
 
 
-    <main id="main">
+    
+    <main id="main classp-3">
+
+
+        <!-- <div class=" row side-bar2 p-4">
+            <div class="col-3">
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+                <p>jjjjjjjjjjjjj</p>
+            </div>
+        </div> -->
 
         <div class="row d-flex justify-content-start pl-4">
             <h5 class="personal PI"> Personal Information</h5>
         </div>
 
-        <div class="row justify-content-center p-3">
-            <div class="col-12 col-md-6">
-                <p class="personal"> First name</p>
-                <input class="John w-50 PH " placeholder="John" type="text" />
+
+
+        <div class="row p-4">
+
+            <div class="col-12 col-md-4">
+                <div class="my-4">
+                    <p class="personal"> First name</p>
+                    <input class="John w-100 PH " placeholder="John" type="text" />
+                </div>
+
+
+                <div class="my-4">
+                    <p class="personal">Phone number</p>
+                    <input class="John w-100 PH" placeholder="+2348000005566" type="number" />
+                </div>
             </div>
 
-            <div class="col-12 col-md-6">
-                <p class="personal"> Last name</p>
-                <input class="John w-50 PH " placeholder="Doe" type="text" />
+
+
+            <div class="col-12 col-md-4">
+                <div class="my-4">
+                    <p class="personal"> Last name</p>
+                    <input class="John w-100 PH " placeholder="Doe" type="text" />
+                </div>
+
+
+                <div class="my-4">
+                    <p class="personal"> Your Email address</p>
+                    <input class="John w-100 PH" placeholder="username@domain.com" type="email" />
+                </div>
             </div>
         </div>
 
-        <div class="row justify-content-center p-3">
-            <div class="col-12 col-md-6">
-                <p class="personal">Phone number</p>
-                <input class="John w-50 PH" placeholder="+2348000005566" type="number" />
-            </div>
 
-            <div class="col-12 col-md-6">
-                <p class="personal"> Your Email address</p>
-                <input class="John w-50 PH" placeholder="username@domain.com" type="email" />
-            </div>
+
+
+        <div class="row d-flex justify-content-start com-info">
+            <h5 class="personal "> Company Information</h5>
         </div>
 
-        <div class="row d-flex justify-content-start ">
-            <h5 class="personal pl-4"> Company Information</h5>
-        </div>
+
+
         <div class="row p-4">
 
             <div class="col-12 col-md-4">
@@ -330,7 +373,7 @@
 
 
 
-        <div class="row justify-content-start pl-4 my-4">
+        <div class="row justify-content-start my-2 " style="padding-left: 40px; padding-top: 20px;">
             <button class="save text-white">
                 Save Changes
             </button>
